@@ -1,0 +1,35 @@
+img {
+    max-width: 100%;
+}
+
+pre {
+    font-size: 1.2em;
+}
+
+.oculta {
+    display: none;
+}
+
+.exibe {
+    display: inline;
+}
+
+.coresAnimado {
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 126, 201);
+}
+
+.coresDesanimado {
+    color: rgb(0, 0, 3);
+    background-color: rgb(255, 81, 0);
+}
+
+.coresNeutro {
+    color: rgb(90, 255, 90);
+    background-color: white;
+}
+
+
+/**Bootstrap biblioteca ou framework == contém arquivos css prontos
+
+/

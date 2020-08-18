@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- referência ao arquivo bootstrap-->
+    <link rel="stylesheet" href="css/estilos.css">
+    <!-- referência ao arquivo css criado-->
+
+    <title>Como você está se sentindo?</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <!-- div onde todos os elementos da pág são inseridos-->
+        <div class="row" id="divTitulo">
+            <!-- class row possui uma id, pois ao trocar de react, modifica-se o estilo dos 
+            elementos dessa div-->
+            <!-- div que organiza seção da pág que é identificada pelo id divTitulo-->
+            <div class="col-sm-7">
+                <!-- 1ª coluna que exibe o título da pág-->
+                <h1> Como você está se sentindo?</h1>
+                <h5>Seu humor influência em sua produtividade.</h5>
+            </div>
+            <div class="col-sm-3">
+                <!--exibe lista do tipo radio contendo o nome do="reacts-->
+                <h5>Como está seu humor?</h5>
+                <input type="radio" name="react" id="rbAnimado"> Animado
+                <br>
+                <input type="radio" name="react" id="rbDesanimado"> Desanimado
+                <br>
+                <input type="radio" name="react" id="rbNeutro"> Neutro
+                <br>
+            </div>
+            <div class="col-sm-2">
+                <!--reservada para exibir  o símbolo d="react-->
+                <img id="imgReact" class="oculta">
+                <img id="imgReact" class="oculta" src="img/Animado.png" alt="PNG Animado">
+                <img id="imgReact" class="oculta" src="img/Desanimado.png" alt="PNG Desanimado">
+                <img id="imgReact" class="oculta" src="img/Neutro.png" alt="PNG Neutro">
+            </div>
+        </div>
+    </div>
+    <!-- a soma dos tamanhos das divs é 12 (lembrar que o bootstrap permite dividir em até 12 grids/colunas)-->
+    <script src="js/react.js"></script>
+
+</body>
+
+</html>
